@@ -1,0 +1,20 @@
+{
+  "name": "pokerplanning",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "build:web": "pnpm --filter web build",
+    "build:cli": "pnpm --filter cli build",
+    "type-check": "turbo run type-check",
+    "test": "turbo run test",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
